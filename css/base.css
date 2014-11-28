@@ -1,0 +1,39 @@
+html, body {height:100%; background-color:#FFF;}
+body,ul,div,li,dl,dt,dd,ol,p,h1,h2,h3,h4,h5,h6,form,td,th {margin:0;padding:0;}
+form { display:inline }
+body, td, div, span, p, input {font-family:Gulim; font-size:12px;}
+img,fieldset,iframe{border:0 none;}
+form, input, select, textarea{margin:0; padding:0; font-size:12px; color:#000000;}
+
+
+a:link {color:#4E7DAC; text-decoration:none;}
+a:visited {color:#4E7DAC; text-decoration:none;}
+a:hover {color:#6099D3;text-decoration:underline;}
+
+
+.input {height:18px; line-height:18px; border:1px solid #CCCCCC;}
+.input_file {height:22px; line-height:22px; border:1px solid #CCCCCC;}
+.select {height:22px; line-height:22px; border:1px solid #CCCCCC;}
+.textarea {line-height:18px; border:1px solid #CCCCCC;}
+input[type=button], input[type=submit] {padding:1px 6px;}
+input[type=text] {height:18px; border:1px solid #CCCCCC;}
+
+
+.dataframe {background-color:#CCCCCC; border-collapse:collapse;}
+.dataframe th {font-size:12px;height:34px; background-color:#C9C9C9; padding:0 12px;}
+.dataframe td {height:32px; background-color:#FFF; padding:0 8px; text-align:center;}
+
+
+#contents {overflow:hidden; width:1280px;}
+#contents li.menulist {overflow:hidden; float:left; width:230px;}
+#contents li.menulist ul {position:fixed; top:0px; width:200px; background-color:#F8F8F0; padding:12px 4px; margin:10px; min-height:560px; overflow:hidden; border:1px solid #F3F3F3; box-shadow:4px 4px 4px silver; -moz-box-shadow:4px 4px 4px silver; -webkit-box-shadow:4px 4px 4px silver; filter:progid:DXImageTransform.Microsoft.Shadow(color=silver,direction=65, strength=10); -moz-border-radius:14px; -webkit-border-radius:14px; border-radius:14px;}
+#contents li.menulist ul li {padding:4px 12px;}
+* html #contents li.menulist ul {position:absolute; top:expression(eval(document.documentElement.scrollTop+50));} 
+
+
+#contents li.display {overflow:hidden; float:left; width:1024px; margin:12px 0 0 2px;}
+#contents li.display div.analysis {margin:0 5px 42px 0; padding:16px 8px 8px 8px; background:#FFF; border:1px solid #F3F3F3; box-shadow:4px 4px 4px silver; -moz-box-shadow:4px 4px 4px silver; -webkit-box-shadow:4px 4px 4px silver; filter:progid:DXImageTransform.Microsoft.Shadow(color=silver,direction=65, strength=10); -moz-border-radius:14px; -webkit-border-radius:14px; border-radius:14px;}
+#contents li.display div.analysis h3 {margin:0 0 8px 0;}
+#contents li.display div.analysis hr {border:0; border-top:1px solid #CCC;}
+#contents li.display div.analysis div {overflow:hidden;}
+#contents li.display div.analysis div div {float:left; margin:6px;}
